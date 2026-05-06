@@ -1,0 +1,38 @@
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar notebooks temporales
+.ipynb_checkpoints/
+
+# Ignorar datasets y resultados grandes
+*.csv
+*.tsv
+*.npy
+*.npz
+*.h5
+*.pkl
+*.joblib
+
+# Ignorar modelos entrenados
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Ignorar carpetas de resultados
+data/
+datasets/
+results/
+outputs/
+logs/
+
+# Ignorar entornos virtuales
+venv/
+.env/
+*.env
+
+# Ignorar configuraciones locales
+.DS_Store
+Thumbs.db
